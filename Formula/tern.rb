@@ -1,8 +1,8 @@
 require "formula"
 
 class Tern < Formula
-  homepage "https://github.com/JackC/tern"
-  url "https://github.com/JackC/tern/archive/v1.2.0.tar.gz"
+  homepage "https://github.com/jackc/tern"
+  url "https://github.com/jackc/tern/archive/v1.2.0.tar.gz"
   sha1 "b90b2cdcb5ff49609adc399afccb6cb777f67129"
 
   depends_on "go" => :build
