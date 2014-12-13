@@ -2,8 +2,8 @@ require "formula"
 
 class React2fs < Formula
   homepage "https://github.com/jackc/react2fs"
-  url "https://github.com/jackc/react2fs/archive/v0.1.2.tar.gz"
-  sha1 "0e712b0202a77479bd9146b3f1d08a1bceb3ac88"
+  url "https://github.com/jackc/react2fs/archive/v0.2.0.tar.gz"
+  sha1 "49312bd279db4a5f216071459c30774ff0bc9e95"
 
   depends_on "go" => :build
 
