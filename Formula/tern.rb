@@ -12,8 +12,8 @@ class Tern < Formula
     ENV["GOPATH"] = "#{buildpath}/Godeps/_workspace"
 
     # Don't want to depend on godep for build so move nested package into correct place in godep
-    system("mkdir -p #{buildpath}/Godeps/_workspace/src/github.com/JackC/tern")
-    system("mv #{buildpath}/migrate #{buildpath}/Godeps/_workspace/src/github.com/JackC/tern")
+    system("mkdir -p #{buildpath}/Godeps/_workspace/src/github.com/jackc/tern")
+    system("mv #{buildpath}/migrate #{buildpath}/Godeps/_workspace/src/github.com/jackc/tern")
 
     system("go build -o tern")
     bin.install("tern")
