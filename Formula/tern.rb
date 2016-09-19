@@ -3,7 +3,7 @@ require "formula"
 class Tern < Formula
   homepage "https://github.com/jackc/tern"
   url "https://github.com/jackc/tern/archive/v1.7.0.tar.gz"
-  sha1 "ed71c61597e94f1f604e22848e3fa6530e731259"
+  sha256 "788c0c6bdeeee3387bd9520fe74a1d6dfe36099bcf6bad08a7d9e0268701c4e7"
 
   depends_on "go" => :build
 

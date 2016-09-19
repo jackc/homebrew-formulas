@@ -3,7 +3,7 @@ require "formula"
 class React2fs < Formula
   homepage "https://github.com/jackc/react2fs"
   url "https://github.com/jackc/react2fs/archive/v0.2.0.tar.gz"
-  sha1 "49312bd279db4a5f216071459c30774ff0bc9e95"
+  sha256 "fbadc3fb775aaca0f8fec459bc71a2076717b5b0465a7b9f0fdde731096ff1ee"
 
   depends_on "go" => :build
 
